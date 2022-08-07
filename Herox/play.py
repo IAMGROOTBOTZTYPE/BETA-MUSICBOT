@@ -241,7 +241,7 @@ async def play(c: Client, m: Message):
     else:
         if len(m.command) < 2:
          await m.reply_photo(
-                     photo=f"https://telegra.ph/file/89f5f5e8c1a24b81ed487.jpg",
+                     photo=f"https://telegra.ph/file/f287dd08e2f94b611aa1f.jpg",
                     caption="**Usage: /play [Music Name or Youtube Link]"
                     ,
                       reply_markup=InlineKeyboardMarkup(
