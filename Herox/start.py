@@ -70,7 +70,7 @@ async def start_private(client: Client, message: Message):
                     "🔎 How to Use? Commands Menu.", callback_data="cb_cmd"),],
                 [
                     InlineKeyboardButton("👤 Owner", url=f"https://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton("💡 Git Repo", url=f"https://github.com/BETA-OFFICIAL/BETA-MUSICBOT"),
+        
                 ],
                 [
                     InlineKeyboardButton(
